@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:url(../../img/foreword.img/bg.png.png);background-repeat:no-repeat ;
+			size:100% 100%;background-attachment: fixed;}/*背景图设置*/
+	.left{padding: 20px;margin: 10px; width: 600px;float: left; 				          background:rgba(42,42,42,0.7);font-size: 12px;color:rgba(184,184,184,1.00);height: 100px;}/*左边数据来源框框*/
+	.right{padding: 20px; margin: 10px;width:600px;float: right; background:rgba(42,42,42,0.7);font-size: 12px;color:rgba(184,184,184,1.00);height: 100px;}/*右边制作人框框*/
+	.box{text-align: center;font-size: 80px;color: #F99F05;margin-top: 100px;margin-bottom: 50px;letter-spacing: 8px}/*中间文字标题部分*/
+    /*导航部分*/
+		.dropbtn {
+			background-color:rgba(216,189,86,1.00);
+			color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+		  cursor: pointer;
+		  border-radius:25px;}
+
+		.dropdown {
+		  position: relative;
+		  display: inline-block;}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color:#161616;
+		  min-width: 80px;
+		  box-shadow:5px 8px 10px 2px #2E2E2E;
+		  border-radius:25px;
+		  z-index: 1;}
+
+		.dropdown-content a {
+		  color:rgba(255,255,255,1.00);
+		  padding: 12px 16px;
+          text-decoration: none;
+		  display: block;}
+
+		.dropdown-content a:hover {background-color:#2B2B2B}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;}
+
+		.dropdown:hover .dropbtn {
+		  background-color:rgba(206,179,46,1.00);}
