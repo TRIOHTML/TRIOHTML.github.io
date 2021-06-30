@@ -1,0 +1,67 @@
+	body{
+			background:url("../../img/foreword.img/bg.png.png"); /*背景图片*/
+			background-repeat:repeat; /*平铺方式不重复*/
+			
+		}
+		h3{font-size: 40px;
+			letter-spacing: 7px;
+			color:#F99F05;
+			margin-left: 60px;
+			
+		}
+		.frame{ /*图表设置*/
+			margin: 50px;
+			width: 80%;
+			height: 400px;
+			text-align: center;
+			margin-left: 100px;
+		}
+		.logo{
+			width: 5%;
+			float:right; /*悬浮右边*/
+			padding-top:210px; /*距顶部内边距200像素*/
+			vertical-align: middle;
+		}
+		.icon{
+			width: 5%;
+			float:left;
+			padding-top: 210px;
+			vertical-align: middle;
+		}
+		/*导航部分*/
+		.dropbtn {
+			background-color:rgba(216,189,86,1.00);
+			color: white;
+		  	padding: 16px;
+		  	font-size: 16px;
+		  	border: none;
+		  	cursor: pointer;
+		  	border-radius:25px;}
+		.dropdown {
+		  	position: relative;
+		  	display: inline-block;
+		}
+		.dropdown-content {
+		  	display: none;
+		  	position: absolute;
+		  	background-color:#161616;
+		  	min-width: 80px;
+		  	box-shadow:5px 8px 10px 2px #2E2E2E;
+		  	border-radius:25px;
+		 	z-index: 1;
+		}
+		.dropdown-content a {
+		  	color:rgba(255,255,255,1.00);
+		 	padding: 12px 16px;
+          	text-decoration: none;
+		  	display: block;
+		}
+		.dropdown-content a:hover {
+			background-color:#2B2B2B
+		}
+		.dropdown:hover .dropdown-content {
+		  	display: block;
+		}
+		.dropdown:hover .dropbtn {
+		  background-color:rgba(206,179,46,1.00);
+		}

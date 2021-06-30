@@ -1,0 +1,50 @@
+		body{
+			background:url(../../img/foreword.img/bg.png.png); /*背景图片*/
+			background-repeat:no-repeat; /*不重复平铺*/
+			background-size: 100%;
+		}
+		.frame{
+			margin-top: 300px; /*顶部外边距为200像素*/
+			text-align: center; /*文本居中对齐*/
+			vertical-align: middle; /*垂直居中*/
+		}
+		.logo{text-align: center;margin-top: 50px}/*图标样式*/
+		/*导航部分*/
+		.dropbtn {
+			background-color:rgba(216,189,86,1.00);
+			color: white;
+		  	padding: 16px;
+		 	font-size: 16px; /*字体大小*/
+		  	border: none;
+		  	cursor: pointer;
+		  	border-radius:25px; /*边框圆角弧度*/
+		}
+		.dropdown {
+		  	position: relative;
+		  	display: inline-block;
+		}
+		.dropdown-content {
+		  	display: none;
+		  	position: absolute;
+		  	background-color:#161616;
+		 	min-width: 80px;
+		  	box-shadow:5px 8px 10px 2px #2E2E2E;
+		  	border-radius:25px;
+		  	z-index: 1;
+		}
+		.dropdown-content a {
+		  	color:rgba(255,255,255,1.00);
+		  	padding: 12px 16px;
+          	text-decoration: none;
+		  	display: block;
+		}
+		.dropdown-content a:hover {
+			background-color:#2B2B2B
+		}
+		.dropdown:hover .dropdown-content {
+		  	display: block;
+		}
+		.dropdown:hover .dropbtn {
+		  	background-color:rgba(206,179,46,1.00);
+		}
+
