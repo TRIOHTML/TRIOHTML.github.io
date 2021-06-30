@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>做自己的“追梦人”——问卷调查</title>
+	<!-- 网页标题 -->
+	<link rel="stylesheet" href="../../css/foreword.css/survey.css">
+	<!-- 引入css外部链接 -->
+</head>
+	<div class="dropdown">
+	<!-- 导航 -->
+		<button class="dropbtn">
+				<a href="../../index.html" style="color: rgba(255,255,255,1.00);text-decoration:none">首页</a></button>
+		<div class="dropdown-content">
+		  	<a href="../Who is staying up late.subpage/People who stay up late.html">熬夜<br>人群</a>
+		  	<a href="../Causes of insomnia.subpage/who stole our sleep.html">失眠<br>原因</a>
+		  	<a href="../City and Career.subpage/it's life.html">群体<br>分析</a>
+		  	<a href="../Hazards and Changes.subpage/the hazards of staying up late.html">熬夜<br>危害</a>
+		</div>
+	</div>
+<body>
+	<main>
+		<h1>做自己的“追梦人”——问卷调查</h1>
+		<!-- 标题 -->
+		<form method="post">
+		<!-- 创建一个表单 -->
+			<div class="frame">
+			<!-- 姓名栏 -->
+				<p>1.姓名:<br>
+				<input type="text" name="name" class="txt">
+				</p>
+			</div>
+			<div class="frame">
+			<!-- 性别栏 -->
+				<p>2.性别:<br>
+					<input type="radio" name="sex" value="male">男<br>
+					<input type="radio" name="sex" value="female">女
+				</p>
+			</div>
+		
+			<div class="frame">
+			<!-- 年龄选择栏 -->
+				<p>3.年龄：<br>
+				<input type="radio" name="age" id="18岁或18岁以下" value="18岁或18岁以下">18岁或18岁以下<br>
+				<input type="radio" name="age" id="18-30岁" value="18-30岁">18-30岁<br>
+				<input type="radio" name="age" id="30岁以上" value="30岁以上">30岁以上<br>
+			</p>
+			</div>
+		
+			<div class="frame">
+			<!-- 城市选择栏 -->
+	 			<p>4.你所在的城市:<br>
+				<select id="city">
+					<option value="北京">北京</option>
+					<option value="上海">上海</option>
+					<option value="广州">广州</option>
+					<option value="深圳">深圳</option>
+					<option value="成都">成都</option>
+					<option value="杭州">杭州</option>
+					<option value="重庆">重庆</option>
+					<option value="武汉">武汉</option>
+					<option value="长沙">长沙</option>
+					<option value="其他">其他</option>
+				</select>	
+				</p>
+			</div>
+		
+			<div class="frame">
+			<!-- 睡觉时间选择栏 -->
+				<p>5.晚上一般几点睡觉：<br>
+				<input type="radio" name="time" value="10点之前">10点之前<br>
+				<input type="radio" name="time" value="10-11点">10-11点<br>	
+				<input type="radio" name="time" value="11-12点">11-12点<br>	
+				<input type="radio" name="time" value="12点之后">12点之后<br>	
+				</p>
+			</div>
+		
+			<div class="frame">
+			<!-- 熬夜时长选择栏 -->
+				<p>6.一周内熬夜平均天数是多少：<br>
+				<input type="radio" name="day" value="0">0<br>
+				<input type="radio" name="day" value="1~2天">1~2天<br>
+				<input type="radio" name="day" value="3天或3天以上">3天或3天以上<br>
+				</p>
+			</div>
+		
+			<div class="frame">
+				<p>7.熬夜的原因是：<br>
+				<input type="radio" name="reason" value="学习或者工作">学习或者工作<br>
+				<input type="radio" name="reason" value="玩游戏、刷短视频等娱乐">玩游戏、刷短视频等娱乐<br>
+				<input type="radio" name="reason" value="看电视、电影等娱乐">看电视、电影等娱乐<br>
+				<input type="radio" name="reason" value="不想睡觉">不想睡觉<br>
+				<input type="radio" name="reason" value="其他">其他<br>
+				</p>
+			</div>
+		
+			<div class="frame">
+			<!-- 原因选择栏 -->
+				<p>8.你认为熬夜对你的生活有什么具体影响：<br>
+				<input type="radio" name="impat" value="不想睡觉">不想睡觉<br>
+				<input type="radio" name="impat" value="感到身体疲惫，注意力不集中">感到身体疲惫，注意力不集中<br>
+				<input type="radio" name="impat" value="出现头痛、嗜睡等身体问题">出现头痛、嗜睡等身体问题<br>
+				<input type="radio" name="impat" value="感觉身体十分亢奋，精力充沛">感觉身体十分亢奋，精力充沛<br>
+				<input type="radio" name="impat" value="其他">其他<br>
+				</p>
+			</div>
+		
+			<div class="frame">
+			<!-- 危害选择栏 -->
+				<p>9.你认为熬夜的危害有哪些：（多选题） <br>
+				<input type="checkbox" name="harm" value="皮肤受损，肤色暗淡，起痘">皮肤受损，肤色暗淡，起痘<br>
+				<input type="checkbox" name="harm" value="抵抗力下降">抵抗力下降<br>
+				<input type="checkbox" name="harm" value="记忆力下降">记忆力下降<br>
+				<input type="checkbox" name="harm" value="容易上火，消化不良">容易上火，消化不良<br>
+				<input type="checkbox" name="harm" value="视力下降">视力下降<br>
+				<input type="checkbox" name="harm" value="引起肥胖，食欲不振">引起肥胖，食欲不振<br>
+				<input type="checkbox" name="harm" value="其他">其他<br>
+				<!-- 建立多选框 -->
+				</p>
+			</div>
+		
+			<div class="frame">
+				<p>10.是否打算改掉熬夜的坏习惯：<br>
+				<input type="radio" name="choice" value="是">是<br>
+				<input type="radio" name="choice" value="否">否<br>
+				</p>
+				<br>
+			</div>
+		</form>
+	</main>
+	<footer>
+		<a href="submit successfully.html">
+		<button class="trim" value="提交">提交
+		</button>
+		</a>
+	</footer>
+</body>
+</html>
